@@ -1,0 +1,890 @@
+@media(max-width:1199px){
+    /* ========================banner====================== */
+    .banner .container .row .col-50 .ban-content h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .banner .container .row .col-50 .ban-content ul{
+        margin-bottom: 20px;
+    }
+    /* ========================goals=========================== */
+    .goals .container .row .col-50 .goals-content h2{
+        font-size: 35px;
+    }
+    .goals .container .row .col-50 .goals-content .changing-text span{
+        font-size: 35px;
+    }
+    /* ==========================equipments====================== */
+    .equipments .container .equipment-row .equip .equip-content h2{
+        font-size: 28px;
+        /* margin-bottom: 35px; */
+    }
+    .equipments .container .equipment-row .equip .equip-content .row .col-25 span{
+        font-size: 18px;
+    }
+    /* =======================subscription================= */
+    .subscription{
+        background: transparent;
+    }
+    .subscription .container .subscription-bg .subscription-left h2{
+        font-size: 35px;
+    }
+    .subscription .container .subscription-bg .subscription-content{
+        padding: 35px 55px;
+        width: 500px;
+    }
+    /* ========================office-hours=============== */
+    .office-hours .container .row .col-40 p{
+        font-size: 13px;
+    }
+    /* ==========================our team======================== */
+    .team .container .row .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 15px;
+    }
+    .team .container .row .col-50 .team-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team  .team-card{
+        width: 100%;
+        padding: 5px;
+    }
+    .team  .team-card img{
+        width:100%;
+    }
+    .team  .team-card::after{
+        display: none;
+    }
+    .team  .team-card::before{
+        display: none;
+    }
+    .team .container .row .col-50 .team-content h3{
+        text-align: center;
+    }
+    .team .container .row .col-50 .team-content p{
+        text-align: center;
+    }
+    /* =========================apple-fitness=================== */
+    .apple-fitness .container .row .col-50 .fitness-content h2{
+        font-size: 35px;
+    }
+    .apple-fitness .container .row .col-50 .fitness-content span{
+        font-size: 35px;
+    }
+    /* =============================ready===================== */
+    .ready .container .row .col-50 .ready-content h2{
+        font-size: 58px;
+    }
+    .ready .container .row .col-50 .ready-content span{
+        font-size: 58px;
+    }
+    /* ==============================footer======================= */
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media(max-width:1024px){
+    /* ========================banner====================== */
+    .banner .container .row .col-50 .ban-content h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .banner .container .row .col-50 .ban-content ul{
+        margin-bottom: 20px;
+    }
+    /* ===============================goals================== */
+    .goals .container .row .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .goals .container .row .col-50 .goals-content ul{
+        margin-top: 10px;
+    }
+    .goals .container .row .col-50 .goals-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .goals .container .row .col-50 .goals-content h2{
+        max-width: 700px;
+        text-align: center;
+    }
+    .goals .container .row .col-50 .goals-content .changing-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .goals .container .row .col-50 .goals-content .changing-text span{
+        text-align: center;
+    }
+    .goals .container .row .col-50 .goals-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .goals .container .row .col-50 .goals-img::after{
+        display: none;
+    }
+    .goals .container .row .col-50 .goals-img::before{
+        display: none;
+    }
+    /* =============================equipments======================= */
+    /* .equipments .container .row .col-30{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .equipments .container .row .col-30 .equipments-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .equipments .container .row .col-70{
+        max-width: 100%;
+        flex: 0 0 100%;
+    } */
+    /* ============================subscription================== */
+    .subscription{
+        background: url(../IMG/subscription-img.png) no-repeat; 
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+    }
+    .subscription::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background-color: #111111;
+        opacity: 0.8;
+    }
+    .subscription .container .subscription-bg{
+        background-color: transparent;
+    }
+    .subscription .container .subscription-bg .subscription-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .subscription .container .subscription-bg .subscription-left h2{
+        color: #fff;
+        margin-bottom: 60px;
+    }
+    .subscription .container .subscription-bg .subscription-content{
+        background-color: #F2ECF4;
+        padding: 41px 65px;
+        height: 305px;
+        width: 512px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscription .container .subscription-bg .subscription-content a{
+        margin: 0;
+    }
+    .subscription .container .subscription-bg .subscription-img{
+        display: none;
+    }
+    /* =====================oofice-hours======================== */
+    .office-hours .container .row .col-60 .office-hour-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .office-hours .container .row .col-60 .office-hour-content h2{
+        text-align: center;
+    }
+    .office-hours .container .row .col-60{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+    .office-hours .container .row .col-40{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .office-hours .container .row .col-40 .table-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .office-hours .container .row .col-40 p{
+        text-align: center;
+    }
+    .office-hours .container .row .col-40 .timing{
+        justify-content: space-evenly;
+    }
+    /* ===========================our team======================== */
+    .team .container .row .col-50 .team-content a{
+        margin-bottom: 22px;
+        margin-right: 0;
+        font-size: 20px;
+    }
+    /* =========================apple-fitness=================== */
+    .apple-fitness .container .row .col-50 .fitness-content h2{
+        font-size: 30px;
+    }
+    .apple-fitness .container .row .col-50 .fitness-content span{
+        font-size: 30px;
+    }
+    .apple-fitness .container .row .col-50 .fitness-content p{
+        font-size: 12px;
+    }
+    .apple-fitness .container .row .col-50 .fitness-content a{
+        margin-bottom: 20px;
+    }
+    /* =============================ready===================== */
+    .ready .container .row .col-50 .ready-content h2{
+        font-size: 54px;
+    }
+    .ready .container .row .col-50 .ready-content span{
+        font-size: 54px;
+    }
+}
+@media(max-width:991px){
+    /* =========================navtop============================ */
+    .nav-top .container .top-menu ul li a{
+        font-size: 18px;
+    }
+    .nav-top .container .top-menu #bold{
+        font-size: 32px;
+    }
+    /* ==========================navbar============================ */
+    .nav-menu ul{
+        position: fixed;
+        background-color: rgba(252, 242, 255, 1);
+        flex-direction: column;
+        align-items: center;
+        max-width: 350px;
+        width: 100%;
+        top: 0;
+        right: -100%;
+        height: calc(100vh);
+        transition: 0.6s ease all;
+        z-index: 1000;
+    }
+    .nav-menu ul li{
+        margin: 18px 0;;
+    }
+    .nav-menu ul li a{
+        color: #333333;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.53;
+        text-transform: capitalize;
+        position: relative;
+    }
+    .nav-menu ul li a::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 4px;
+        background: #6A2FF8;
+        left: 0;
+        bottom: -5px;
+        border-radius: 20px;
+        scale: 0;
+        transition: ease all 0.5s;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    
+    }
+    .menu-btn{
+        display: block;
+        transition: 0.6  ease all;
+    }
+    .menu-btn i{
+        position: relative;
+        font-size: 25px;
+        color: #3C1493;
+    }
+    .cmn-btn{
+        margin-right: 60px;
+    }
+    #check:checked~.menu-btn i::before{
+        content: "\f00d";
+        position: absolute;
+        top: -20px;
+        right: 7px;
+        z-index: 1001;
+        transition: 0.6 ease all;
+    }
+    /* ============================banner======================== */
+    .banner .container .row .col-50 .ban-content h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .banner .container .row .col-50 .ban-content ul{
+        margin-bottom: 20px;
+    }
+    /* ========================goals========================= */
+    .goals .container .row .col-50 .goals-content h2{
+        font-size: 32px;
+    }
+    .goals .container .row .col-50 .goals-content .changing-text span{
+        font-size: 32px;
+    }
+    /* ======================equipments=========================== */
+    .equipments{
+        /* background: url(../IMG/eqipemnts-img.png) no-repeat; */
+        /* background:#F0EBFF; */
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+    }
+    .equipments .container .equipment-row{
+        justify-content: center;
+        align-items: center;
+        margin: 0 -15px;
+    }
+    .equipments .container .equipment-row .col-30{
+        /* max-width: 100%;
+        flex: 0 0 100%; */
+        display: none;
+    }
+    .equipments .container .equipment-row .col-70{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 15px;
+    }
+    .equipments .container .equipment-row .col-70::after{
+        display: none;
+    }
+    .equipments .container .equipment-row .col-70::before{
+        display: none;
+    }
+    .equipments .container .equipment-row .equip{
+        background-color: transparent;   
+    }
+    .equipments .container .equipment-row .col-70 .equip-content  .row{
+        justify-content: center;
+        align-items: start;
+        text-align: center;
+    }
+    .equipments .container .equipment-row .col-70 .equip-content .row-upper{
+        padding-top: 20px;
+    }
+    .equipments .container .equipment-row .col-70 .equip-content  .row .col-25{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+    /* =========================believe========================= */
+    .believe .container .believe-content h2{
+        font-size: 60px;
+    }
+    .believe .container .believe-content h2 span{
+        font-size: 60px;
+    }
+    /* =====================our team========================== */
+    .team .container .team-top h2{
+        font-size: 42px;
+    }
+    .team .container .row .col-50 .team-content h3{
+        font-size: 30px;
+    }
+    .team .container .row .col-50 .team-content a{
+        font-size: 16px;
+    }
+   /* ===========================apple-fitness==================== */
+   .apple-fitness .container .row .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+}
+    .apple-fitness .container .row .col-50 .fitness-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    .apple-fitness .container .row .col-50 .fitness-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+    .apple-fitness .container .row .col-50 .fitness-content h2{
+        font-size: 35px;
+        margin-bottom: 10px;
+        text-align: center;
+        max-width: 800px;
+}
+    .apple-fitness .container .row .col-50 .fitness-content h2 span{
+        font-size: 35px;
+        margin-bottom: 10px;
+}
+    .apple-fitness .container .row .col-50 .fitness-content p{
+        font-size: 14px;
+        text-align: center;
+}
+    .apple-fitness .container .row .col-50 .fitness-content .cmn-btn{
+        margin-right: 0;
+}
+    /*=============================machines=================== */
+    .machines .container .row{
+        justify-content: center;
+        align-items: center;
+    }
+    .machines .container .row .col-33{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+    /* ===========================ready======================== */
+    .ready .container .row .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .ready .container .row .col-50 .ready-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ready .container .row .col-50 .ready-content h2{
+        text-align: center;
+    }
+    .ready .container .row .col-50 .ready-content a{
+        margin-right: 0;
+    }
+    .ready .container .row .col-50 .ready-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ready .container .row .col-50 .ready-img::after{
+        
+        display: none;
+    }
+    .ready .container .row .col-50 .ready-img::before{
+        display: none;
+    }
+    /* ===========================footer=========================== */
+    footer .container .row .col-20{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 25px;
+    }
+    footer .container .row .col-40{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    iframe{
+        width: 380px;
+        height: 280px;
+    }
+}
+@media(max-width:767px){
+    /* =============================nav-top======================= */
+    .nav-top .container .top-menu ul li a{
+        font-size: 14px;
+    }
+    .nav-top .container .top-menu #bold{
+        font-size: 18px;
+        line-height: 0;   
+    }
+    /* ===========================banner======================== */
+    .banner{
+        background: url(../IMG/ban-img.png) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background-color: #111111;
+        opacity: 0.4;
+    }
+    .banner .container .row .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 15px;
+    }
+    .banner .container .row .col-50 .ban-content{
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .container .row .col-50 .ban-content h1{
+        font-size: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .banner .container .row .col-50 .ban-content ul{
+        margin-bottom: 40px;
+    }
+    .banner .container .row .col-50 .ban-content a{
+        font-size: 15px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .banner .container .row .col-50 .ban-img{
+        display: none;
+    }
+    /* =======================goals========================== */
+    .goals .container .row .col-50 .goals-content h2{
+        font-size: 30px;
+    }
+    .goals .container .row .col-50 .goals-content .changing-text span{
+        font-size: 30px;
+    }
+    /* =======================subscription=================== */
+    .subscription .container .subscription-bg .subscription-left h2{
+        font-size: 38px;
+    }
+    /* =========================believe========================= */
+    .believe .container .believe-content h2{
+        font-size: 50px;
+    }
+    .believe .container .believe-content h2 span{
+        font-size: 50px;
+    }
+    /* =====================our team========================== */
+    .team .container .team-top h2{
+        font-size: 42px;
+    }
+    .team .container .row .col-50 .team-content h3{
+        font-size: 28px;
+
+    }
+    .team .container .row .col-50 .team-content a{
+        font-size: 18px;
+    }
+    .team .container .row .col-50 .team-content a{
+        font-size: 14px;
+    }
+   
+    /* =======================machines========================== */
+    .machines .container .machine-top h2{
+        font-size: 35px;
+    }
+    .machines .container .row .col-33{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .machines .container .row .col-33 .machine-img{
+        margin-bottom: 20px;
+    }
+    /* ===========================footer=========================== */
+    footer .container .row{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    footer .container .row .col-20{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .container .row .col-20 .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer .container .row .col-40{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+@media(max-width:575px){
+    /* =============================nav-top======================= */
+    .nav-top .container .top-menu ul li a{
+        font-size: 12px;
+    }
+    .nav-top .container .top-menu #bold{
+        font-size: 16px;
+        line-height: 0;   
+    }
+    /* ====================goals============================== */
+    .goals .container .row .col-50 .goals-content h2{
+        font-size: 28px;
+    }
+    .goals .container .row .col-50 .goals-content .changing-text span{
+        font-size: 28px;
+    }
+    /* ===================equipments================================ */
+    .equipments .container .equipment-row .col-70 h2{
+        font-size: 25px;
+    }
+    .equipments .container .equipment-row .equip .equip-content .row .col-25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .equipments .container .row .col-70 .equip-content .row .col-25 span{
+        /* font-size: 18px; */
+    }
+    .equipments .container .row .col-70 .equip-content .row .col-25  ul li{
+        /* font-size: 14px; */
+    }
+    /* ============================subscription===================== */
+    .subscription .container .subscription-bg .subscription-left h2{
+        font-size: 35px;
+    }
+    .subscription .container .subscription-bg .subscription-content{
+        padding: 41px 65px;
+        height: auto;
+        width: auto;
+    }
+    .subscription .container .subscription-bg .subscription-content h3{
+        font-size: 16px;
+    }
+    .subscription .container .subscription-bg .subscription-content h3 span{
+        font-size: 18px;
+    }
+
+    /* ===========================office-hours====================== */
+    .office-hours .container .row .col-60 .office-hour-content span{
+        font-size: 20px;
+    }
+    .office-hours .container .row .col-60 .office-hour-content h2{
+        font-size: 30px;
+    }
+    .office-hours .container .row .col-40 h3{
+        font-size: 25px;
+        color: #3C1493;
+    }
+    .office-hours .container .row .col-40 p{
+        font-size: 12px;
+    }
+    .office-hours .container .row .col-40 .timing .day{
+        font-size: 18px;
+    }
+    .office-hours .container .row .col-40  .timing .time{
+        font-size: 18px;
+    }
+   /* =========================believe========================= */
+   .believe .container .believe-content h2{
+        font-size: 40px;
+    }
+    .believe .container .believe-content h2 span{
+        font-size: 40px;
+    }
+    /* =================================our team=================== */
+    .team .container .team-top h2{
+        font-size: 40px;
+    }
+    /* ===================apple-fitness========================= */
+    .apple-fitness .container .row .col-50 .fitness-content a{
+        max-width: 150px;
+    }
+    .apple-fitness .container .row .col-50 .fitness-content h2{
+        font-size: 30px;
+    }
+     .apple-fitness .container .row .col-50 .fitness-content h2 span{
+         font-size: 30px;
+    }
+     .apple-fitness .container .row .col-50 .fitness-content p{
+         font-size: 12px;
+    }
+    .apple-fitness .container .row .col-50 .fitness-content .cmn-btn{
+        font-size: 10px;
+    }
+    /* ==========================machines========================= */
+    .machines .container .machine-top h2{
+        font-size: 32px;
+    }
+    .machines .container .row .col-33 .machine-card .card-content p{
+        font-size: 12px;
+    }
+    /* ============================ready====================== */
+    .ready .container .row .col-50 .ready-content a{
+        font-size: 12px;
+    }
+}
+@media(max-width:480px){
+    /* =============================nav-top======================= */
+    .nav-top{
+        display: none;
+    }
+/* ============================navbar===================== */
+    .container .navbar .nav-btn a{
+        font-size: 13px;
+        font-weight: 700;
+        padding: 14px 30px;
+    }
+/* ===========================banner========================= */
+    .banner .container .row .col-50 .ban-content h1{
+        font-size:35px;
+    }
+    .banner .container .row .col-50 .ban-content ul li{
+        font-size: 12px;
+    }
+    .banner .container .row .col-50 .ban-content a{
+        font-size: 12px;
+        font-weight: 700;
+        padding: 14px 30px;
+    }
+
+/* ================================goals======================== */
+    .goals .container .row .col-50 .goals-content h2{
+        font-size: 22px;
+        max-width: 400px;
+    }
+    .goals .container .row .col-50 .goals-content p{
+        font-size: 14px;
+    }
+    .goals .container .row .col-50 .goals-content .changing-text span{
+        font-size: 20px;
+    }
+    .goals .container .row .col-50 .goals-content ul li{
+        font-size: 12px;
+    }
+/*===========================equipments========================*/
+    .equipments .container .equipment-row .col-70 .equip-content h2{
+        font-size: 22px;
+    }
+    .equipments .container .equipment-row .col-70 .equip-content  .row .col-25 span{
+        font-size: 16px;
+    }
+    .equipments .container .equipment-row .col-70 .equip-content  .row .col-25  ul li{
+        font-size: 12px;
+    }
+/* =========================subscription======================= */
+    .subscription .container .subscription-bg .subscription-left h2{
+        font-size: 35px;
+        margin-bottom: 80px;
+    }
+    .subscription .container .subscription-bg .subscription-content{
+        padding: 10px 15px;
+
+    }
+    .subscription .container .subscription-bg .subscription-content p{
+        font-size: 12px;
+    }
+    .subscription .container .subscription-bg .subscription-content h3{
+        font-size: 12px;
+        text-align: center;
+    }
+    .subscription .container .subscription-bg .subscription-content h3 span{
+        font-size: 14px;
+    }
+    .subscription .container .subscription-bg .subscription-content span{
+        font-size: 12px;
+    }
+    .subscription .container .subscription-bg .subscription-content a{
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+/* =========================office-hours====================== */
+    .office-hours .container .row .col-60 .office-hour-content span{
+        font-size: 18px;
+    }
+    .office-hours .container .row .col-60 .office-hour-content h2{
+        font-size: 25px;
+    }
+    .office-hours .container .row .col-40 h3{
+        font-size: 20px;
+        color: #3C1493;
+    }
+    .office-hours .container .row .col-40 p{
+        font-size: 10px;
+    }
+    .office-hours .container .row .col-40 .timing .day{
+        font-size: 14px;
+    }
+    .office-hours .container .row .col-40  .timing .time{
+        font-size: 14px;
+
+    }
+    .office-hours .container .row .col-60 .office-hour-content .office-img::after{
+        width: 100px;
+        height: 100px;
+    }
+    .office-hours .container .row .col-60 .office-hour-content .office-img::before{
+        width: 100px;
+        height: 100px;
+    }
+/* =========================believe========================= */
+    .believe .container .believe-content h2{
+        font-size: 32px;
+    }
+    .believe .container .believe-content h2 span{
+        font-size: 32px;
+    }
+/* ======================our team=============================== */
+    .team .container .team-top h2{
+        font-size: 32px;
+    }
+    .team .container .team-top p{
+        font-size: 10px;
+    }
+    .team .container .row .col-50 .team-content h3{
+        font-size: 22px;
+    }
+    .team .container .row .col-50 .team-content p{
+        font-size: 10px;
+    }
+    .team .container .row .col-50 .team-content a{
+        margin-bottom: 18px;
+        font-size: 10px;
+    }
+    /* =========================apple-fitness==================== */
+    .apple-fitness .container .row .col-50 .fitness-content h2{
+        font-size: 20px;
+    }
+     .apple-fitness .container .row .col-50 .fitness-content h2 span{
+         font-size: 20px;
+    }
+     .apple-fitness .container .row .col-50 .fitness-content p{
+         font-size: 10px;
+    }
+    .apple-fitness .container .row .col-50 .fitness-content a{
+        max-width: 130px;
+    }
+    .apple-fitness .container .row .col-50 .fitness-content .cmn-btn{
+        font-size: 8px;
+        padding: 10px 25px;
+    }
+    /* ============================machines================= */
+    .machines .container .machine-top h2{
+        font-size: 28px;
+    }
+    .machines .container .row .col-33 .machine-card .card-content h3{
+        font-size: 16px;
+    }
+    /*================================ready================ */
+    .ready .container .row .col-50 .ready-content h2{
+        font-size: 45px;
+    }
+    .ready .container .row .col-50 .ready-content h2 span{
+        font-size: 45px;
+    } 
+    .ready .container .row .col-50 .ready-content a{
+        font-size: 10px;
+    }
+    /* ==============================footer=============== */
+    footer .container .row .col-20 span{
+        font-size: 22px;
+    }
+    footer .container .row .col-40{
+        display: none;
+    }
+    footer .container-max .copy-right a{
+        text-align: center;
+        font-size: 10px;
+    }
+    footer .container-max .copy-right a span{
+        font-size: 10px;
+    }
+}
